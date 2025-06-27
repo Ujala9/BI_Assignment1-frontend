@@ -40,7 +40,9 @@ export default function App() {
     <>
     <Header/>
 
-    <div className="d-flex justify-content-end px-5 mt-4 mx-4">
+    <h1 className="text-success text-center display-1 fw-bold my-4 py-2">MeetUp Events</h1>
+
+    <div className="d-flex justify-content-end px-5 mt-4 mx-5">
      <select className="form-select"
         onChange={(e) => setFilterType(e.target.value)} value={filterType} style={{ maxWidth: "200px" }}>
           <option value="">Select event Type</option>
@@ -50,7 +52,7 @@ export default function App() {
        </div>
 
      {/* <div className=""> */}
-      <h1 className="text-success text-center display-1 fw-bold my-4 py-2">MeetUp Events</h1>
+     
       {/* </div> */}
        
       
